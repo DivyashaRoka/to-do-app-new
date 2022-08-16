@@ -47,7 +47,7 @@ return (
       {todoList.map((task) => {
         return (
         <Task 
-        taskName ={task.taskName} 
+        taskName ={task.taskName}
         id ={task.id} 
         completed = {task.completed}
         deleteTask ={deleteTask}
